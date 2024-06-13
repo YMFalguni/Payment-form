@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment form|By Falguni</title>
+  <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+  
+</body>
+</html>
+  <form id="form">
+    <h1 >Payment Form</h1>
+    <h2>User Details</h2>
+    <hr>
+    <p> Required fileds are followed by *</p>
+    <div class="name">
+    <p class="user_info" > Firts Name: *<input type="text" name="name" Placeholder="First Name"></p>
+    </div>
+    <div class="name" >
+    <p class="user_info" > Last Name: *<input type="text" name="name" Placeholder="Last Name"required></p>
+    </div>
+    <fieldset>
+      <legend class="user_info"> Gender *</legend>
+      <p>
+        Male<input type="Radio" name="Gender" id="male" required>
+        Female<input type="Radio" name="Gender" id="female" required>
+      </p>
+    </fieldset>
+    <p class="user_info">Address: <textarea name="address" id="address" cols="10" row="7" Placeholder="Address"> </textarea> </p>
+    <p class="user_info"> Email: * <input type="email" name="email" id="email" placeholder="Email"></p>
+    <p class="user_info">Pincode: *<input type="number" name="pincode" id="pincode" maxlength="6" Placeholder="Pincode" required></p>
+ 
+    <h2>Payment Details</h2>
+    <p class="user_info">Card type: *
+      <select name="card_type"  required>
+        <option value="">__ Select a card type__</option>
+        <option value="Visa">Visa</option>
+        <option value="Rupay">Rupay</option>
+        <option value="Mastercard">MasterCard</option>
+      </select>
+    <p class="user_info"> Card Number: * <input text="number" name="card_number" id="card_number" Placeholder="Card Number" required></p>
+    <p class="user_info"> Expiration Date: * <input type="date" name="exp_date" id="exp_date" Placeholder="Expiration date"required></p>
+    <p class="user_info"> CVV: * <input type="password" name="cvv" id="cvv"Placeholder="CVV" required></p>
+    <button id="button_pay" type="button" onclick="alert('Pay now')">Pay Now</button>
+    <button id="button_reset"type="button" onclick="alert('Reset the form')">Reset</button>
+  </form>
+</body>
+
+</html>

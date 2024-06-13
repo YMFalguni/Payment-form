@@ -1,0 +1,57 @@
+*{
+    background-color: rgb(244, 222, 255);
+    font-family: 'Arial Narrow';
+}
+#form{
+    padding: 30px;
+    border:  20px solid rgb(210, 113, 255);
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center; 
+    text-decoration: black underline;
+}
+.name{
+    display: inline-block;
+}
+.user_info{
+    font-weight: bold;
+    font-family: 'Arial Narrow','Franklin Gothic Medium' , Arial, sans-serif;
+    
+    color: black;
+}
+textarea{
+    text-align: center;
+    background-color: antiquewhite;
+    border: 2px,solid,black;
+    border-radius: 20px;
+}
+input{
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    height: 25px;
+}
+
+#button_pay{
+    background-color: rgb(4, 170, 109);;
+    color:bisque;
+    border:0px;
+    height:35px;
+    width:75px;
+    margin-left: 530px;
+    margin-right: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#button_reset{
+    background-color: rgb(235, 12, 4);
+    color:bisque;
+    border:0px;
+    height:35px;
+    width:75px;
+    border-radius: 15px;
+    cursor: pointer;
+}
